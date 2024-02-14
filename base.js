@@ -10,7 +10,7 @@ function check() {
                 if (fou.value.toLowerCase() === 'будущее') {
                     document.getElementById('center').style.visibility = "hidden"
                     document.getElementById('fw').style.visibility = "visible"
-                    document.getElementById("сфтмфы").scrollIntoView();
+                    document.getElementById("canvas").scrollIntoView();
                     alert("ПРАВИЛЬНО!")
                 } else {
                     alert("Последнее слово неправильное!")
